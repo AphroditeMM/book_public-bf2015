@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>要是喜欢，结局是喜是悲，又有什么关系呢？</title>
+
+    <meta charset="UTF-8"/>
+
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+
+    <meta name="HandheldFriendly" content="true"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+    <link href="./asset/farbox/basic.css" type="text/css" rel="stylesheet"/>
+    <link href="./asset/farbox/main.css" type="text/css" rel="stylesheet"/>
+
+    <style type="text/css">
+        
+            span.md_line{margin-bottom:0.5em; display:block; line-height:1.89}
+            .md_line br{ display: none;}
+            
+    </style>
+
+    <script>
+        var flowchat_options = {
+            'x': 0, 'y': 0, 'line-width': 1, 'line-length': 50, 'text-margin': 10, 'font-size': 13,
+            'font-color': '#3c3c3c', 'line-color': '#666666', 'element-color': '#666666', 'fill': 'transparent',
+            'yes-text': 'yes', 'no-text': 'no', 'arrow-end': 'block', 'class': 'flowchart', 'scale': 1,
+            'symbols': { 'start': {}, 'end': {}, 'condition': {}, 'inputoutput': {}, 'operation': {}, 'subroutine': {}}
+        }
+    </script>
+    <script type="text/javascript" src="./asset/other/raphael-min.js"></script>
+    <script type="text/javascript" src="./asset/other/flowchart.js"></script>
+    <script type="text/javascript" src="./asset/other/echarts.min.js"></script>
+
+    <link href="./asset/other/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="./asset/other/mermaid/mermaid.min.js"></script>
+
+
+</head>
+
+<body>
+    
+        <a href="./index.html" id="go_to_home"> &lt; home </a>
+    
+    <div id="sidebar">
+        <ul id="sidebar_body">
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./序言.html" class="">序言</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./周末.html" class="">周末</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./颂扬苦闷.html" class="">颂扬苦闷</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./每个人出生前都是一条鱼.html" class="">每个人出生前都是一条鱼</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./我捉不住她，我把她弄丢了.html" class="">我捉不住她，我把她弄丢了</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./生活永远会有更糟糕的情况出现.html" class="">生活永远会有更糟糕的情况出现</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./深夜乱想2.html" class="">深夜乱想2</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./白日杂乱的思绪.html" class="">日记|白日杂乱的思绪</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./深夜乱想.html" class="">日记｜深夜乱想</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./要是喜欢，结局是喜是悲，又有什么关系呢？.html" class="selected">要是喜欢，结局是喜是悲，又有什么关系呢？</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./我们不爱了而已.html" class="">我们不爱了而已</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./而立之年了，然后呢.html" class="">而立之年了，然后呢</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./没什么，盼好.html" class="">没什么，盼好</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./“你需要选择生活，还是讲述？”.html" class="">“你需要选择生活，还是讲述？”</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./人是否常在活着活着的时候，突然丧失自我.html" class="">人是否常在活着活着的时候，突然丧失自我</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./我痛不痛与你何干.html" class="">我痛不痛与你何干</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./等待，不会落空？.html" class="">等待，不会落空？</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./一个早上.html" class="">一个早上</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./雨很大，会把发梢打湿的.html" class="">雨很大，会把发梢打湿的</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./太上无情.html" class="">太上无情</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./节奏不对.html" class="">节奏不对</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./风的力量.html" class="">风的力量</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./致爱情.html" class="">致爱情</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./明月清风，天空地静.html" class="">明月清风，天空地静</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./零零碎碎的如意.html" class="">零零碎碎的如意</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./离去，收拾旧物.html" class="">离去，收拾旧物</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./我们仍未知道那天所看见的花的名字.html" class="">我们仍未知道那天所看见的花的名字</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./没什么，晚安.html" class="">没什么，晚安</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./前任.html" class="">前任</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./我独自一人.html" class="">我独自一人</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./又从半夜中醒来.html" class="">又从半夜中醒来</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./我们分手了.html" class="">我们分手了</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./流动的情绪.html" class="">流动的情绪</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./我想，我又矫情了.html" class="">我想，我又矫情了</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./有些时候，我只是在胡思乱想.html" class="">有些时候，我只是在胡思乱想</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./可我不是精灵，那又能怎么办呢.html" class="">可我不是精灵，那又能怎么办呢</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./忽然想喝酒.html" class="">忽然想喝酒</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./红尘孽债皆自惹，何必留痕.html" class="">红尘孽债皆自惹，何必留痕</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./天还亮，夕阳很美.html" class="">天还亮，夕阳很美</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./这一阵，广州常下雨.html" class="">这一阵，广州常下雨</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./写给十年后的自己.html" class="">写给十年后的自己</a>
+                </li>
+            
+
+            
+        
+            
+            
+            
+            
+
+            
+                <li class="level_1 file">
+                    <a href="./说到底，各人不过有各人的烦恼罢了.html" class="">说到底，各人不过有各人的烦恼罢了</a>
+                </li>
+            
+
+            
+        
+        </ul>
+    </div>
+
+    <div id="main">
+        <div class="content_body">
+            <h1 class="title"> 要是喜欢，结局是喜是悲，又有什么关系呢？ </h1>
+            <div class="doc_post"> <p class="md_block">
+    <span class="md_line md_line_start md_line_end">我站了起身，嗅到身上散发的淡淡香水。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">雏菊·冰淇淋，中调，像刚洗过澡残留在肌肤上的沐浴清香。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">林海音到底是个婚姻美满的女人，故事大多以喜剧结局。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">就如《迟开的杜鹃》，形容四十岁还没有婚姻的亚芳——</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">“把你比作一株迟开的杜鹃，不可以吗？”</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_1"></span>
+<p class="md_block">
+    <span class="md_line md_line_start">图片来源网络。模特杜鹃。<br /></span>
+    <span class="md_line md_line_end">周六，照例是睡醒后回公司看书。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">偌大的办公室，头顶的灯亮着，安静而舒适。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">旁边的项目组仍在加班，听说20号就要上线。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">连续二十天朝九晚九的上班节奏，周六日都在上班。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">有时候，做游戏与编字典一样，都是耐心的活儿。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">《编舟记》说的就是有关耐心的故事。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">但最后能落得好下场，耐心些又有什么关系？</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">可谁能保证结局是喜还是悲呢？</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">就如爱情。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">可要是喜欢，结局是喜是悲，又有什么关系呢？</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_1"></span>
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">耐心编写辞典的主人公马缔光</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_1"></span>
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">香港沦陷了，白流苏和范柳原结了婚，但张爱玲偏不说他们因为爱情。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">只肯说：在这不可理喻的世界里，谁知道什么是因，什么是果？</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">谁知道呢？</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_2"></span>
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">——可是这些年来为什么就没有走上婚姻之路，她（亚芳）可答不出来了。（《迟开的杜鹃花》）：</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">“并非为抱独身主义，而且曾是许多追求者的对象，没有一个具体的原因，可以解释她和婚姻绝缘。……说是自己的理想太高，可是她心目中从没有过理想丈夫的标准。也许是自己太寡情了，缺乏青春的热情？或者是事业心重于家庭吗？那才怪，江湖混迹这些年了，也不过是从教小学爬到中学教员，好像从事职业的目的一直是为了解决生活，从没有过伟大事业的心胸。……”</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_1"></span>
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">竟是意外地说出了心声。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">我想或许是因为错过。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">只是错过而已罢。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">命运总爱开玩笑的。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">人来。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">人往。</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_1"></span>
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">《倾城之恋》是张爱玲小说中难得有圆满结局的故事。——传奇中倾国倾城的人大抵如此。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">《迟开的杜鹃》，亚芳相亲的厂长居然是当年曾经给她写过热烈情书的理科男，可惜最后出国了。她不愿意等，多渺茫，多遥远的爱情。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">——“现在你肯答应和我通信了吗？这一回我可没有出国啊！”</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">几十年后，二人再相见倒是把这一段前缘续上了。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">亚芳“垂下眼帘并且微微一笑，女人默许的记号！”</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_2"></span>
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">谁敢说这里面就是爱情呢？</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">但谁又有把握说不是呢？</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_2"></span>
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">当晚我与他牵手的一刹那，谁又不是抱着慎始慎终的心态呢？</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">到底分了。</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_2"></span>
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">属于我的姻缘该又是被月老改签到另一头去了罢。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">说不定前缘会在十几年后再续上呢？</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">谁又能说清？</span>
+</p>
+
+<span class="md_repeated_n md_repeated_n_2"></span>
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">胡琴咿咿呀呀拉着，在万盏灯火的夜晚，拉过来又拉过去，说不尽的苍凉的故事——不问也罢。</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">—完—</span>
+</p>
+
+
+<p class="md_block">
+    <span class="md_line md_line_start md_line_end">2016-9-10</span>
+</p> </div>
+            
+        </div>
+
+    </div>
+
+
+
+
+
+<script>
+    // auto focus for menu
+    window.onload = function(){
+        var sidebar = document.getElementById('sidebar');
+        var current = document.getElementsByClassName('selected')[0];
+        if (current && sidebar){
+            sidebar.scrollTop = current.offsetTop - sidebar.clientHeight/2 + 100
+        }
+    };
+</script>
+
+
+
+
+</body>
+
+</html>
